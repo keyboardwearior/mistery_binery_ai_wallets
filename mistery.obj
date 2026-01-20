@@ -16806,7 +16806,7 @@ Disassembly of section .text:
    14000fe85:	cc                   	int3
    14000fe86:	cc                   	int3
    14000fe87:	cc                   	int3
-   14000fe88:	48 8d 05 c9 38 03 00 	lea    rax,[rip+0x338c9]        # 0x140043758
+   14000fe88:	48 8d 05 c9 38 03 00 	lea    rax,[rip+0x338c9]        # 0x140043758 //this get called from start
    14000fe8f:	c3                   	ret
    14000fe90:	48 8d 05 d1 38 03 00 	lea    rax,[rip+0x338d1]        # 0x140043768
    14000fe97:	c3                   	ret
